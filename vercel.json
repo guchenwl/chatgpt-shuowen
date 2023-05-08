@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/api/(.*)",
-      "destination": "/api/proxy"
+      "destination": "http://111.230.242.219:3002/$1"
     },
     { "source": "/:path*", "destination": "/index.html" }
   ]
